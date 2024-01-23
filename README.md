@@ -47,6 +47,7 @@ CREATE USER 'test'@'localhost'
 Исследуйте, какой engine используется в таблице БД test_db и приведите в ответе.  
 `show table status;`  
 ![](https://github.com/Svalker1989/MySQL/blob/main/Z3_0.PNG)  
+Ответ: InnoDB  
 Измените engine и приведите время выполнения и запрос на изменения из профайлера в ответе:  
 на MyISAM,  
 `alter table orders engine=myisam;`  
