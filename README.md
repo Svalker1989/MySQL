@@ -12,7 +12,7 @@
 Подключитесь к восстановленной БД и получите список таблиц из этой БД.  
 `show tables;`  
 ![](https://github.com/Svalker1989/MySQL/blob/main/Z1_2.PNG)  
-Приведите в ответе количество записей с price > 300.
+Приведите в ответе количество записей с price > 300.  
 `select count(*) from orders where price > 300;`  
 ![](https://github.com/Svalker1989/MySQL/blob/main/Z1_3.PNG)  
 В следующих заданиях мы будем продолжать работу с этим контейнером.  
