@@ -34,7 +34,6 @@ CREATE USER 'test'@'localhost'
   WITH MAX_QUERIES_PER_HOUR 100
   PASSWORD EXPIRE INTERVAL 180 DAY
   FAILED_LOGIN_ATTEMPTS 3 
-  PASSWORD_LOCK_TIME 2 
   ATTRIBUTE '{"Фамилия": "Pretty", "Имя ": "James"}';
 ```  
 Выдаем права пользователю test на все таблицы БД test_db:   
